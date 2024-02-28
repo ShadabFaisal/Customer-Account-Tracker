@@ -1,0 +1,24 @@
+.admin-page{
+    background-image: url("https://images.pexels.com/photos/7130555/pexels-photo-7130555.jpeg?cs=srgb&dl=pexels-codioful-%28formerly-gradienta%29-7130555.jpg&fm=jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cards{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.card-img-top{
+    height:200px;
+    width:238px;
+}
+.card{
+    padding: 30px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}

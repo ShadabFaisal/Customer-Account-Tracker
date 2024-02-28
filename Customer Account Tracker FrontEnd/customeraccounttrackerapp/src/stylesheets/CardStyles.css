@@ -1,0 +1,32 @@
+.customer-card{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ29Afvcimv04bBofSX6zvWj7-u-8e06Qsj062u94Wv10GsJh66dkXKKzFWBeOAMyfh1DQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    box-shadow: 0 0 4px 4px #3f3f3f;
+    border-radius:2%;
+    background-image: url('https://t3.ftcdn.net/jpg/02/06/72/80/360_F_206728077_RRDapEFBARIFnpb6ZjwaTf5b5xxlBjRS.jpg');
+}
+
+.get-customer{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 35px;
+    padding-left: 130px;
+    padding-right: 130px;
+    box-shadow: 0 0 4px 4px #090b0c;
+    border-radius: 3%;
+    height:30vh;
+}
+.get-account{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 55px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 0 0 4px 4px #090b0c;
+    border-radius: 3%;
+    height:40vh;
+}

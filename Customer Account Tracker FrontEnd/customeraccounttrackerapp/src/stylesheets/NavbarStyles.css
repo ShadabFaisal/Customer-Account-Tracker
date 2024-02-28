@@ -1,0 +1,30 @@
+.navbar-brand{
+
+    padding-left:50px;
+    padding-right:50px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: #fbf7f7; /* Text color */ /* Adjust font size as needed */
+    font-family: 'Arial', sans-serif; /* Specify font-family */
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de; /* Neon glow effect */
+    animation: neon-animation 1.5s ease-in-out infinite alternate;
+    
+}
+.nav-link{
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.nav-item{
+    padding-right: 50px;
+}
+
+.collapse{
+    justify-content:space-between;
+}
+
+.register-btn{
+    margin-right: 20px;
+}

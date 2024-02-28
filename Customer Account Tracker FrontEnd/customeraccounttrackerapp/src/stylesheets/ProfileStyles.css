@@ -1,0 +1,17 @@
+.profile{
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/009/873/436/small/colorful-gradient-abstract-background-001-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.dp{
+    margin-top: 80px;
+    margin-left: 550px;
+    background-color: rgb(249, 249, 251);
+    width:24rem;
+    height: 38rem;
+    border-radius: 5%;
+    box-shadow: 0 0 4px 4px #090b0c;
+    position: absolute;
+}

@@ -1,0 +1,27 @@
+.login-page {
+  height: 100vh;
+  background-color: rgb(214, 240, 250);
+}
+
+.login-form {
+  margin-top: 65px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0 0 4px 4px #090b0c;
+  border-radius: 2%;
+  height:70vh;
+}
+
+.hero-image{
+  margin-top: 75px;
+  margin-left: 100px;;
+}
+
+.title{
+  color: rgba(0, 13, 99, 0.785);
+  font-size: 30px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+  font-weight: 1000;
+}

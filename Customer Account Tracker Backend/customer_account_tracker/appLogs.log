@@ -1,0 +1,565 @@
+2023-07-04 01:13:09,344 [INFO] com.cts.customer_account_tracker.CustomerAccountTrackerApplication [restartedMain] Starting CustomerAccountTrackerApplication using Java 18.0.1.1 with PID 6660 (D:\Shadab\STUDY\Projects\Cognizant Fulltime Internship Project\Customer Account Tracker Backend\customer_account_tracker\target\classes started by Shadab in D:\Shadab\STUDY\Projects\Cognizant Fulltime Internship Project\Customer Account Tracker Backend\customer_account_tracker)
+2023-07-04 01:13:09,401 [INFO] com.cts.customer_account_tracker.CustomerAccountTrackerApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2023-07-04 01:13:09,715 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-07-04 01:13:09,719 [INFO] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-07-04 01:13:13,535 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-07-04 01:13:13,782 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 213 ms. Found 4 JPA repository interfaces.
+2023-07-04 01:13:16,336 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8081 (http)
+2023-07-04 01:13:16,371 [INFO] org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2023-07-04 01:13:16,372 [INFO] org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-07-04 01:13:16,665 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2023-07-04 01:13:16,666 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 6945 ms
+2023-07-04 01:13:17,708 [INFO] org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-07-04 01:13:17,897 [INFO] org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-07-04 01:13:18,780 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2023-07-04 01:13:19,839 [INFO] com.zaxxer.hikari.pool.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48809d1a
+2023-07-04 01:13:19,847 [INFO] com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2023-07-04 01:13:20,198 [INFO] SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-07-04 01:13:23,380 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-07-04 01:13:23,413 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-07-04 01:13:25,018 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-07-04 01:13:25,353 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4aef704, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@453f0c65, org.springframework.security.web.context.SecurityContextHolderFilter@7043842, org.springframework.security.web.header.HeaderWriterFilter@13ea2ec7, org.springframework.security.web.authentication.logout.LogoutFilter@52508c17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4a488e9b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@51a878, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1863900c, org.springframework.security.web.access.ExceptionTranslationFilter@3634f71e]
+2023-07-04 01:13:29,833 [INFO] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2023-07-04 01:13:29,861 [INFO] org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [restartedMain] Exposing 14 endpoint(s) beneath base path '/actuator'
+2023-07-04 01:13:30,117 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8081 (http) with context path ''
+2023-07-04 01:13:30,174 [INFO] com.cts.customer_account_tracker.CustomerAccountTrackerApplication [restartedMain] Started CustomerAccountTrackerApplication in 22.148 seconds (process running for 24.089)
+2023-07-04 01:13:43,952 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8081-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-07-04 01:13:43,952 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-07-04 01:13:43,959 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8081-exec-1] Completed initialization in 6 ms
+2023-07-04 01:13:44,015 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Securing POST /users/login?userId=6898511648790998&password=Logistics@396
+2023-07-04 01:13:44,056 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Secured POST /users/login?userId=6898511648790998&password=Logistics@396
+2023-07-04 01:13:44,826 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:13:45,431 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-2] Securing GET /accounts/6898511648790998
+2023-07-04 01:13:45,503 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-2] Secured GET /accounts/6898511648790998
+2023-07-04 01:13:47,031 [INFO] com.cts.customer_account_tracker.Controller.BankAccountController [http-nio-8081-exec-2] Retrieved Account details for a customer...
+2023-07-04 01:13:48,274 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:13:48,285 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Securing GET /accounts/6898511648790998
+2023-07-04 01:13:48,291 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Secured GET /accounts/6898511648790998
+2023-07-04 01:13:48,333 [INFO] com.cts.customer_account_tracker.Controller.BankAccountController [http-nio-8081-exec-3] Retrieved Account details for a customer...
+2023-07-04 01:13:48,352 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:14:20,700 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Securing GET /user/6898511648790998/transactions
+2023-07-04 01:14:20,710 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Secured GET /user/6898511648790998/transactions
+2023-07-04 01:14:20,789 [INFO] com.cts.customer_account_tracker.Controller.TransactionController [http-nio-8081-exec-6] Transaction History for a user
+2023-07-04 01:14:21,340 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:14:21,352 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Securing GET /user/6898511648790998/transactions
+2023-07-04 01:14:21,355 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Secured GET /user/6898511648790998/transactions
+2023-07-04 01:14:21,376 [INFO] com.cts.customer_account_tracker.Controller.TransactionController [http-nio-8081-exec-7] Transaction History for a user
+2023-07-04 01:14:21,394 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:14:43,343 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Securing GET /user/6898511648790998/transactions
+2023-07-04 01:14:43,350 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Secured GET /user/6898511648790998/transactions
+2023-07-04 01:14:43,377 [INFO] com.cts.customer_account_tracker.Controller.TransactionController [http-nio-8081-exec-10] Transaction History for a user
+2023-07-04 01:14:43,403 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:14:43,419 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Securing GET /user/6898511648790998/transactions
+2023-07-04 01:14:43,426 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Secured GET /user/6898511648790998/transactions
+2023-07-04 01:14:43,438 [INFO] com.cts.customer_account_tracker.Controller.TransactionController [http-nio-8081-exec-9] Transaction History for a user
+2023-07-04 01:14:43,449 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:14:52,082 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-2] Securing GET /user/6898511648790998/transactions
+2023-07-04 01:14:52,085 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-2] Secured GET /user/6898511648790998/transactions
+2023-07-04 01:14:52,107 [INFO] com.cts.customer_account_tracker.Controller.TransactionController [http-nio-8081-exec-2] Transaction History for a user
+2023-07-04 01:14:52,145 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:14:52,174 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Securing GET /user/6898511648790998/transactions
+2023-07-04 01:14:52,178 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Secured GET /user/6898511648790998/transactions
+2023-07-04 01:14:52,190 [INFO] com.cts.customer_account_tracker.Controller.TransactionController [http-nio-8081-exec-3] Transaction History for a user
+2023-07-04 01:14:52,213 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:14:56,850 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Securing GET /accounts/6898511648790998
+2023-07-04 01:14:56,854 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Secured GET /accounts/6898511648790998
+2023-07-04 01:14:56,873 [INFO] com.cts.customer_account_tracker.Controller.BankAccountController [http-nio-8081-exec-4] Retrieved Account details for a customer...
+2023-07-04 01:14:56,884 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:14:56,895 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Securing GET /accounts/6898511648790998
+2023-07-04 01:14:56,900 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Secured GET /accounts/6898511648790998
+2023-07-04 01:14:56,918 [INFO] com.cts.customer_account_tracker.Controller.BankAccountController [http-nio-8081-exec-5] Retrieved Account details for a customer...
+2023-07-04 01:14:56,929 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:15:16,257 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Securing POST /users/login?userId=admin&password=admin@123
+2023-07-04 01:15:16,260 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Secured POST /users/login?userId=admin&password=admin@123
+2023-07-04 01:15:16,304 [WARN] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8081-exec-7] Resolved [com.cts.customer_account_tracker.Exceptions.UserNotFoundException: Credentials do not Match!!! Please try again...]
+2023-07-04 01:15:16,305 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:15:35,006 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Securing POST /users/login?userId=admin&password=Admin@123
+2023-07-04 01:15:35,008 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Secured POST /users/login?userId=admin&password=Admin@123
+2023-07-04 01:15:35,024 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:15:47,945 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Securing GET /accounts
+2023-07-04 01:15:47,947 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Secured GET /accounts
+2023-07-04 01:15:48,422 [INFO] com.cts.customer_account_tracker.Controller.BankAccountController [http-nio-8081-exec-1] Retrieved the list of BankAccounts...
+2023-07-04 01:15:48,502 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:15:48,508 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-2] Securing GET /accounts
+2023-07-04 01:15:48,510 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-2] Secured GET /accounts
+2023-07-04 01:15:48,571 [INFO] com.cts.customer_account_tracker.Controller.BankAccountController [http-nio-8081-exec-2] Retrieved the list of BankAccounts...
+2023-07-04 01:15:48,645 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:00,698 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Securing OPTIONS /accounts/3585080819828680
+2023-07-04 01:16:00,700 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Secured OPTIONS /accounts/3585080819828680
+2023-07-04 01:16:00,715 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:00,763 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Securing DELETE /accounts/3585080819828680
+2023-07-04 01:16:00,765 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Secured DELETE /accounts/3585080819828680
+2023-07-04 01:16:01,046 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8081-exec-6] SQL Error: 1451, SQLState: 23000
+2023-07-04 01:16:01,047 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8081-exec-6] Cannot delete or update a parent row: a foreign key constraint fails (`customer_account_db`.`transaction`, CONSTRAINT `FKirdfjexk188g8jq2l7fc8gaj5` FOREIGN KEY (`acc_num`) REFERENCES `bank_account` (`acc_num`))
+2023-07-04 01:16:01,179 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:01,189 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8081-exec-6] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`customer_account_db`.`transaction`, CONSTRAINT `FKirdfjexk188g8jq2l7fc8gaj5` FOREIGN KEY (`acc_num`) REFERENCES `bank_account` (`acc_num`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3767)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:4116)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:126)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:612)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:483)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:480)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:329)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:477)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2234)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1930)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy4/jdk.proxy4.$Proxy155.deleteById(Unknown Source)
+	at com.cts.customer_account_tracker.Service.Impl.BankAccountServiceImpl.deleteAccountById(BankAccountServiceImpl.java:55)
+	at com.cts.customer_account_tracker.Controller.BankAccountController.deleteAccount(BankAccountController.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:425)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:285)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:78)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:124)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:268)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:169)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-04 01:16:01,290 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Securing DELETE /error
+2023-07-04 01:16:01,292 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Secured DELETE /error
+2023-07-04 01:16:01,363 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:06,563 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Securing GET /accounts
+2023-07-04 01:16:06,575 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Secured GET /accounts
+2023-07-04 01:16:06,643 [INFO] com.cts.customer_account_tracker.Controller.BankAccountController [http-nio-8081-exec-7] Retrieved the list of BankAccounts...
+2023-07-04 01:16:06,719 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:06,725 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-8] Securing GET /accounts
+2023-07-04 01:16:06,728 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-8] Secured GET /accounts
+2023-07-04 01:16:06,794 [INFO] com.cts.customer_account_tracker.Controller.BankAccountController [http-nio-8081-exec-8] Retrieved the list of BankAccounts...
+2023-07-04 01:16:06,871 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:09,410 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Securing DELETE /accounts/3585080819828680
+2023-07-04 01:16:09,412 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Secured DELETE /accounts/3585080819828680
+2023-07-04 01:16:09,435 [WARN] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8081-exec-10] SQL Error: 1451, SQLState: 23000
+2023-07-04 01:16:09,436 [ERROR] org.hibernate.engine.jdbc.spi.SqlExceptionHelper [http-nio-8081-exec-10] Cannot delete or update a parent row: a foreign key constraint fails (`customer_account_db`.`transaction`, CONSTRAINT `FKirdfjexk188g8jq2l7fc8gaj5` FOREIGN KEY (`acc_num`) REFERENCES `bank_account` (`acc_num`))
+2023-07-04 01:16:09,449 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:09,452 [ERROR] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] [http-nio-8081-exec-10] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint [null]] with root cause
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`customer_account_db`.`transaction`, CONSTRAINT `FKirdfjexk188g8jq2l7fc8gaj5` FOREIGN KEY (`acc_num`) REFERENCES `bank_account` (`acc_num`))
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:118)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1009)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1320)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:994)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:3767)
+	at org.hibernate.persister.entity.AbstractEntityPersister.delete(AbstractEntityPersister.java:4116)
+	at org.hibernate.action.internal.EntityDeleteAction.execute(EntityDeleteAction.java:126)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:612)
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:483)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:480)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:329)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:39)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107)
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1425)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:477)
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:2234)
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:1930)
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:439)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183)
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281)
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101)
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:561)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:660)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:410)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:163)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy4/jdk.proxy4.$Proxy155.deleteById(Unknown Source)
+	at com.cts.customer_account_tracker.Service.Impl.BankAccountServiceImpl.deleteAccountById(BankAccountServiceImpl.java:55)
+	at com.cts.customer_account_tracker.Controller.BankAccountController.deleteAccount(BankAccountController.java:80)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:596)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231)
+	at org.springframework.security.web.ObservationFilterChainDecorator$FilterObservation$SimpleFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:425)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$1(ObservationFilterChainDecorator.java:285)
+	at org.springframework.security.web.ObservationFilterChainDecorator.lambda$wrapSecured$0(ObservationFilterChainDecorator.java:78)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:124)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:126)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:120)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82)
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:172)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.wrapFilter(ObservationFilterChainDecorator.java:185)
+	at org.springframework.security.web.ObservationFilterChainDecorator$AroundFilterObservation$SimpleAroundFilterObservation.lambda$wrap$0(ObservationFilterChainDecorator.java:268)
+	at org.springframework.security.web.ObservationFilterChainDecorator$ObservationFilter.doFilter(ObservationFilterChainDecorator.java:169)
+	at org.springframework.security.web.ObservationFilterChainDecorator$VirtualFilterChain.doFilter(ObservationFilterChainDecorator.java:133)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:352)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:268)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-07-04 01:16:09,459 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Securing DELETE /error
+2023-07-04 01:16:09,460 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Secured DELETE /error
+2023-07-04 01:16:09,475 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:45,174 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Securing GET /customers
+2023-07-04 01:16:45,176 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Secured GET /customers
+2023-07-04 01:16:45,184 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-9] Retrieved all customers...
+2023-07-04 01:16:45,207 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:45,212 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Securing GET /customers
+2023-07-04 01:16:45,213 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Secured GET /customers
+2023-07-04 01:16:45,216 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-1] Retrieved all customers...
+2023-07-04 01:16:45,228 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:51,410 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Securing GET /customers/8
+2023-07-04 01:16:51,413 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Secured GET /customers/8
+2023-07-04 01:16:51,427 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-4] Retrieved customer details...
+2023-07-04 01:16:51,459 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:16:51,466 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Securing GET /customers/8
+2023-07-04 01:16:51,468 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Secured GET /customers/8
+2023-07-04 01:16:51,473 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-5] Retrieved customer details...
+2023-07-04 01:16:51,489 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:17:14,519 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-8] Securing OPTIONS /customers/8
+2023-07-04 01:17:14,520 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-8] Secured OPTIONS /customers/8
+2023-07-04 01:17:14,526 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:17:14,534 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Securing PUT /customers/8
+2023-07-04 01:17:14,536 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Secured PUT /customers/8
+2023-07-04 01:17:15,046 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-10] Customer Info Updated...
+2023-07-04 01:17:15,049 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:17:16,938 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Securing GET /customers
+2023-07-04 01:17:16,944 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Secured GET /customers
+2023-07-04 01:17:16,949 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-9] Retrieved all customers...
+2023-07-04 01:17:16,969 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:17:16,985 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Securing GET /customers
+2023-07-04 01:17:16,988 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Secured GET /customers
+2023-07-04 01:17:16,993 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-1] Retrieved all customers...
+2023-07-04 01:17:17,004 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:32:13,228 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Securing GET /customers/12
+2023-07-04 01:32:13,289 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Secured GET /customers/12
+2023-07-04 01:32:13,416 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-3] Retrieved customer details...
+2023-07-04 01:32:14,201 [WARN] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8081-exec-3] Resolved [com.cts.customer_account_tracker.Exceptions.CustomerNotFoundException]
+2023-07-04 01:32:14,209 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:37:37,505 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Securing GET /customers/12
+2023-07-04 01:37:37,511 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Secured GET /customers/12
+2023-07-04 01:37:37,528 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-4] Retrieved customer details...
+2023-07-04 01:37:37,566 [WARN] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8081-exec-4] Resolved [com.cts.customer_account_tracker.Exceptions.CustomerNotFoundException]
+2023-07-04 01:37:37,567 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:37:46,206 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Securing GET /customers/63
+2023-07-04 01:37:46,210 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Secured GET /customers/63
+2023-07-04 01:37:46,215 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-7] Retrieved customer details...
+2023-07-04 01:37:46,316 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:39:51,549 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-8] Securing GET /customers/63
+2023-07-04 01:39:51,584 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-8] Secured GET /customers/63
+2023-07-04 01:39:51,654 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-8] Retrieved customer details...
+2023-07-04 01:39:51,835 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:40:36,844 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Securing GET /customers/14
+2023-07-04 01:40:36,846 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Secured GET /customers/14
+2023-07-04 01:40:36,849 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-10] Retrieved customer details...
+2023-07-04 01:40:36,868 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:40:47,597 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Securing GET /customers/63
+2023-07-04 01:40:47,599 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Secured GET /customers/63
+2023-07-04 01:40:47,608 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-1] Retrieved customer details...
+2023-07-04 01:40:47,709 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:41:27,607 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Securing GET /customers/63
+2023-07-04 01:41:27,609 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Secured GET /customers/63
+2023-07-04 01:41:27,619 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-3] Retrieved customer details...
+2023-07-04 01:41:27,654 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:41:33,818 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Securing GET /customers/63
+2023-07-04 01:41:33,821 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Secured GET /customers/63
+2023-07-04 01:41:33,825 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-5] Retrieved customer details...
+2023-07-04 01:41:33,851 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:45:03,683 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Securing GET /customers/64
+2023-07-04 01:45:03,688 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Secured GET /customers/64
+2023-07-04 01:45:03,701 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-6] Retrieved customer details...
+2023-07-04 01:45:03,728 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:45:21,127 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Securing GET /customers/64
+2023-07-04 01:45:21,129 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Secured GET /customers/64
+2023-07-04 01:45:21,135 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-10] Retrieved customer details...
+2023-07-04 01:45:21,159 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:45:27,971 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Securing GET /customers/64
+2023-07-04 01:45:27,973 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-1] Secured GET /customers/64
+2023-07-04 01:45:27,978 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-1] Retrieved customer details...
+2023-07-04 01:45:28,002 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:47:58,351 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Securing GET /customers/undefined
+2023-07-04 01:47:58,352 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Secured GET /customers/undefined
+2023-07-04 01:47:58,444 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8081-exec-3] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "undefined"]
+2023-07-04 01:47:58,445 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:47:58,457 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Securing GET /error
+2023-07-04 01:47:58,459 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Secured GET /error
+2023-07-04 01:47:58,533 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:48:02,351 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Securing GET /customers/undefined
+2023-07-04 01:48:02,356 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Secured GET /customers/undefined
+2023-07-04 01:48:02,366 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8081-exec-4] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "undefined"]
+2023-07-04 01:48:02,368 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:48:02,375 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Securing GET /error
+2023-07-04 01:48:02,378 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Secured GET /error
+2023-07-04 01:48:02,394 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:48:07,354 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Securing GET /customers/undefined
+2023-07-04 01:48:07,356 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Secured GET /customers/undefined
+2023-07-04 01:48:07,360 [WARN] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver [http-nio-8081-exec-5] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "undefined"]
+2023-07-04 01:48:07,360 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:48:07,362 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Securing GET /error
+2023-07-04 01:48:07,364 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Secured GET /error
+2023-07-04 01:48:07,368 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:51:14,643 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Securing GET /customers/64
+2023-07-04 01:51:14,653 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-7] Secured GET /customers/64
+2023-07-04 01:51:14,685 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-7] Retrieved customer details...
+2023-07-04 01:51:14,760 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:51:23,249 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-8] Securing GET /customers/64
+2023-07-04 01:51:23,252 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-8] Secured GET /customers/64
+2023-07-04 01:51:23,262 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-8] Retrieved customer details...
+2023-07-04 01:51:23,277 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 01:55:29,787 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Securing GET /customers/64
+2023-07-04 01:55:29,791 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Secured GET /customers/64
+2023-07-04 01:55:29,799 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-9] Retrieved customer details...
+2023-07-04 01:55:29,813 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 02:00:51,099 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-2] Securing GET /customers/63
+2023-07-04 02:00:51,143 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-2] Secured GET /customers/63
+2023-07-04 02:00:51,248 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-2] Retrieved customer details...
+2023-07-04 02:00:51,482 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 02:00:57,192 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Securing GET /customers/64
+2023-07-04 02:00:57,203 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Secured GET /customers/64
+2023-07-04 02:00:57,209 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-3] Retrieved customer details...
+2023-07-04 02:00:57,225 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 02:01:02,708 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Securing GET /customers/15
+2023-07-04 02:01:02,709 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-4] Secured GET /customers/15
+2023-07-04 02:01:02,715 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-4] Retrieved customer details...
+2023-07-04 02:01:02,825 [WARN] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8081-exec-4] Resolved [com.cts.customer_account_tracker.Exceptions.CustomerNotFoundException]
+2023-07-04 02:01:02,827 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 02:01:08,631 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Securing GET /customers/4
+2023-07-04 02:01:08,633 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-5] Secured GET /customers/4
+2023-07-04 02:01:08,639 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-5] Retrieved customer details...
+2023-07-04 02:01:08,653 [WARN] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [http-nio-8081-exec-5] Resolved [com.cts.customer_account_tracker.Exceptions.CustomerNotFoundException]
+2023-07-04 02:01:08,653 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 02:01:24,128 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Securing GET /customers/62
+2023-07-04 02:01:24,134 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-6] Secured GET /customers/62
+2023-07-04 02:01:24,139 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-6] Retrieved customer details...
+2023-07-04 02:01:24,165 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 02:01:53,309 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Securing GET /customers
+2023-07-04 02:01:53,311 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-10] Secured GET /customers
+2023-07-04 02:01:53,316 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-10] Retrieved all customers...
+2023-07-04 02:01:53,475 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 02:01:53,498 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Securing GET /customers
+2023-07-04 02:01:53,499 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-9] Secured GET /customers
+2023-07-04 02:01:53,505 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-9] Retrieved all customers...
+2023-07-04 02:01:53,534 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2023-07-04 02:02:04,526 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Securing GET /customers/6
+2023-07-04 02:02:04,527 [DEBUG] org.springframework.security.web.FilterChainProxy [http-nio-8081-exec-3] Secured GET /customers/6
+2023-07-04 02:02:04,533 [INFO] com.cts.customer_account_tracker.Controller.CustomerController [http-nio-8081-exec-3] Retrieved customer details...
+2023-07-04 02:02:04,553 [DEBUG] org.springframework.security.web.authentication.AnonymousAuthenticationFilter [http-nio-8081-exec-3] Set SecurityContextHolder to anonymous SecurityContext

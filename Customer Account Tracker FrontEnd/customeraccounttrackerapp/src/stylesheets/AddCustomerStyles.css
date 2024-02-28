@@ -1,0 +1,19 @@
+.add-customer{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ29Afvcimv04bBofSX6zvWj7-u-8e06Qsj062u94Wv10GsJh66dkXKKzFWBeOAMyfh1DQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    padding:0;
+}
+
+.container{
+    padding-top:20px;
+}
+
+.customer-form{
+    padding:50px;
+    box-shadow: 0 0 4px 4px #090b0c;
+    border-radius:2%;
+    margin-bottom: 20px;
+
+}

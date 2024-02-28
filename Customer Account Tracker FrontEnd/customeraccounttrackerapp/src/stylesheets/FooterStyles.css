@@ -1,0 +1,107 @@
+footer {
+  border-top: 8px solid #333;
+  padding: 2rem 2.2rem;
+  background-color: #070707;
+  color: rgb(199, 197, 197);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__row__2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+
+.column__1,
+.column__2,
+.column__3,
+.column__4 {
+  font-size: 16px;
+}
+
+.column__1 {
+  align-items: unset;
+}
+
+.footer__row__1 > h2 {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer__row__3 {
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.follow_social {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+p {
+  color: #aba0a0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+footer a {
+  height: 50px;
+  width: 50px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  line-height: 66px;
+  box-shadow: 1px 2px 2px 2px #dcdde1;
+}
+
+footer a i {
+  transition: all 0.3s linear;
+}
+
+footer a:hover i {
+  transform: scale(1.2);
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-instagram {
+  color: #e84393;
+}
+
+.fa-linkedin {
+  color: blue;
+}
+
+.fa-twitter {
+  color: #0097e6;
+}
+
+.fa-telegram {
+  color: #0097e6;
+}
+
+.fa-google {
+  background: linear-gradient(to bottom left, transparent 49%, #fbbc05 50%) 0
+      25%/48% 40%,
+    linear-gradient(to top left, transparent 49%, #fbbc05 50%) 0 75%/48% 40%,
+    linear-gradient(-40deg, transparent 53%, #ea4335 54%),
+    linear-gradient(45deg, transparent 46%, #4285f4 48%), #34a853;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
